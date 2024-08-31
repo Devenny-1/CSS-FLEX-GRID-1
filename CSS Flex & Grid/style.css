@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #C0C78C;
+    color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: brown;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+}
+
+.one {
+    margin: 20px;
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.intro {
+    background-color: #A6B37D;
+    padding: 65px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-inner {
+    max-width: 700px;
+}
+
+.intro h1 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    font-weight: 500px;
+}
+
+.intro p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #C0C78C;
+    color: #fff;
+    padding: 12px 12px;
+    border-radius: 8px;
+}
+
+.details {
+    background-color: #FEFAE0;
+    padding: 65px 40px;
+}
+
+.details-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-column-gap: 35px;
+    grid-row-gap: 35px;
+}
+
+.details-inner h3 {
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+    color: brown;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.details-inner p {
+    border: 2px solid brown;
+    border-top-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    text-align: center;
+    padding: 20px;
+    background-color: #C0C78C;
+}
+
+.footer {
+    text-align: center;
+    background-color: #B99470;
+    padding: 10px 0;
+    color: brown;
+}
+
+
+
+
